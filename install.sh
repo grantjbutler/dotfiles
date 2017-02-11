@@ -18,3 +18,5 @@ chsh -s $(which fish)
 
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 
+./macos
+
