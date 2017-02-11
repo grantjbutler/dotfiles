@@ -13,8 +13,8 @@ brew tap homebrew/bundle
 brew bundle
 
 echo "Setting Fish as Defualt Shell..."
-echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
-chsh -s /usr/local/bin/fish
+echo $(which fish) | sudo tee -a /etc/shells
+chsh -s $(which fish)
 
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 
