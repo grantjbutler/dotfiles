@@ -8,7 +8,13 @@ defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool false
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool false
 
+defaults write com.apple.finder NewWindowTarget -string "PfHm"
 defaults write com.apple.finder NewWindowTargetPath -string "file:///Users/"(whoami)"/"
+
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+defaults write com.apple.finder EmptyTrashSecurely -bool true
 
 # Dock
 defaults write com.apple.dock autohide -bool true
@@ -20,6 +26,8 @@ defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
+
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # Photos
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
