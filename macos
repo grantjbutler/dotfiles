@@ -32,7 +32,10 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 # Photos
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
-for app in "cfprefsd" "Dock" "Finder" "Photos" "Safai" "SystemUIServer"
+# Xcode
+defaults write com.apple.dt.Xcode DVTTextShowLineNumbers -bool true
+
+for app in "cfprefsd" "Dock" "Finder" "Photos" "Safai" "SystemUIServer" "Xcode"
     killall "$app" > /dev/null ^ /dev/null
 end
 
