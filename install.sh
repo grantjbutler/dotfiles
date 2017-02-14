@@ -12,9 +12,6 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-echo "Setting Fish as Defualt Shell..."
-echo $(which fish) | sudo tee -a /etc/shells
-chsh -s $(which fish)
-
+./setup/fish
 ./setup/git
 ./setup/macos
