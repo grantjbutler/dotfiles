@@ -1,3 +1,6 @@
+tap 'homebrew/dupes'
+tap 'homebrew/versions'
+tap 'homebrew/homebrew-php'
 tap 'caskroom/cask'
 
 # Tools
@@ -6,6 +9,7 @@ brew 'diff-so-fancy'
 brew 'fish'
 brew 'git-lfs'
 brew 'mas'
+brew 'php71', args: ['with-debug']
 brew 'wget'
 
 # Apps
