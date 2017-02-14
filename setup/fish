@@ -3,3 +3,5 @@
 echo "Setting Fish as Defualt Shell..."
 echo $(which fish) | sudo tee -a /etc/shells
 chsh -s $(which fish)
+
+echo "source ~/.dotfiles/fish/config.fish" >> ~/.config/fish/config.fish
