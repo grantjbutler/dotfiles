@@ -16,6 +16,5 @@ echo "Setting Fish as Defualt Shell..."
 echo $(which fish) | sudo tee -a /etc/shells
 chsh -s $(which fish)
 
-git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
-
+./setup/git
 ./setup/macos
