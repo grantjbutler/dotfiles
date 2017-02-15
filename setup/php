@@ -1,0 +1,10 @@
+#!/bin/bash -eu
+
+curl -fsSL -o /tmp/composer-install https://getcomposer.org/installer
+php -f /tmp/composer-install
+mv composer.phar /usr/local/bin/composer
+
+/usr/local/bin/composer global require laravel/installer laravel/valet
+
+$HOME/.composer/vendor/bin/valet install
+$HOME/.composer/vendor/bin/valet domain app
