@@ -40,4 +40,3 @@ for app in "cfprefsd" "Dock" "Finder" "Photos" "Safai" "SystemUIServer" "Xcode"
 end
 
 echo "Done. Note that some of these changes require a logout/restart to take effect."
-
