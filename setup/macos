@@ -1,4 +1,4 @@
-#!/usr/bin/env fish
+#!/bin/bash -eu
 
 # Finder
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
@@ -36,7 +36,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 defaults write com.apple.dt.Xcode DVTTextShowLineNumbers -bool true
 
 for app in "cfprefsd" "Dock" "Finder" "Photos" "Safai" "SystemUIServer" "Xcode"
-    killall "$app" > /dev/null ^ /dev/null
+    killall "${app}" &> /dev/null
 end
 
 echo "Done. Note that some of these changes require a logout/restart to take effect."
