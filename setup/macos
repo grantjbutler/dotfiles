@@ -9,7 +9,7 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool false
 
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
-defaults write com.apple.finder NewWindowTargetPath -string "file:///Users/"(whoami)"/"
+defaults write com.apple.finder NewWindowTargetPath -string "file:///Users/"$(whoami)"/"
 
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
