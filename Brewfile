@@ -12,6 +12,7 @@ brew 'mas'
 brew 'mysql'
 brew 'node'
 brew 'php71', args: ['with-debug']
+brew 'rbenv'
 brew 'wget'
 
 # Apps
