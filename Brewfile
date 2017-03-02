@@ -44,6 +44,7 @@ cask 'zeplin'
 # App Store
 mas 'Fantastical 2', id: 975937182
 mas 'Keynote', id: 409183694
+mas 'Motion', id: 434290957
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Tweetbot', id: 557168941
