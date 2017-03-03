@@ -42,6 +42,7 @@ cask 'visual-studio-code'
 cask 'zeplin'
 
 # App Store
+mas 'Deliveries', id: 924726344
 mas 'Fantastical 2', id: 975937182
 mas 'Keynote', id: 409183694
 mas 'Motion', id: 434290957
