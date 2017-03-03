@@ -1,0 +1,4 @@
+#!/bin/bash -eu
+
+echo "source ~/.dotfiles/vimrc" > ~/.vimrc
+

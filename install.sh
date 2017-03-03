@@ -6,6 +6,7 @@ xcode-select --install
 ./setup/brew
 ./setup/fish
 ./setup/git
+./setup/vim
 ./setup/php
 ./setup/ruby
 ./setup/mysql
