@@ -10,4 +10,6 @@ xcode-select --install
 ./setup/php
 ./setup/ruby
 ./setup/mysql
+./setup/vscode
 ./setup/macos
+

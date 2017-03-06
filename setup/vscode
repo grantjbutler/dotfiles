@@ -1,0 +1,5 @@
+#!/bin/bash -eu
+
+code --install-extension Orta.vscode-ios-common-files
+code --install-extension octref.vetur
+
