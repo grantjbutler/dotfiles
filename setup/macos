@@ -35,6 +35,10 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 # Xcode
 defaults write com.apple.dt.Xcode DVTTextShowLineNumbers -bool true
 
+# Security
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 5
+
 for app in "cfprefsd" "Dock" "Finder" "Photos" "Safai" "SystemUIServer" "Xcode"
     killall "${app}" &> /dev/null
 end
