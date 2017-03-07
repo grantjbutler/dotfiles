@@ -9,9 +9,7 @@ brew 'diff-so-fancy'
 brew 'fish'
 brew 'git-lfs'
 brew 'mas'
-brew 'mysql'
 brew 'node'
-brew 'php71', args: ['with-debug']
 brew 'rbenv'
 brew 'wget'
 
@@ -38,8 +36,10 @@ cask 'spotify'
 cask 'steam'
 cask 'the-hit-list'
 cask 'the-unarchiver'
+cask 'vagrant'
+cask 'virtualbox'
 cask 'visual-studio-code'
-cask 'zeplin'
+cask 'zepline
 
 # App Store
 mas 'Deliveries', id: 924726344

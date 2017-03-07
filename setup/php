@@ -4,7 +4,15 @@ curl -fsSL -o /tmp/composer-install https://getcomposer.org/installer
 php -f /tmp/composer-install
 mv composer.phar /usr/local/bin/composer
 
-/usr/local/bin/composer global require laravel/installer laravel/valet
+vagrant box add laravel/homestead --provider virtualbox
 
-$HOME/.composer/vendor/bin/valet install
-$HOME/.composer/vendor/bin/valet domain app
+pushd ~
+
+git clone https://github.com/laravel/homestead.git .homestead
+cd .homestead
+git checkout v5.0.1
+
+bash init.sh
+
+popd
+
