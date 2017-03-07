@@ -40,7 +40,7 @@ cask 'the-unarchiver'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'visual-studio-code'
-cask 'zepline
+cask 'zeplin'
 
 # App Store
 mas 'Deliveries', id: 924726344
