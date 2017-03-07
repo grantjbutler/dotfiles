@@ -7,6 +7,7 @@ xcode-select --install
 ./setup/fish
 ./setup/git
 ./setup/vim
+./setup/dnsmasq
 ./setup/php
 ./setup/ruby
 ./setup/mysql

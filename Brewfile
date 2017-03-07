@@ -6,6 +6,7 @@ tap 'caskroom/cask'
 # Tools
 brew 'carthage'
 brew 'diff-so-fancy'
+brew 'dnsmasq'
 brew 'fish'
 brew 'git-lfs'
 brew 'mas'
