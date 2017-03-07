@@ -1,0 +1,6 @@
+#!/bin/bash -eu
+
+mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+ln -s ~/.dotfiles/xcode/base16-tomorrow.dark.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Base16\ Tomorrow\ \(Dark\).dvtcolortheme
+defaults write com.apple.dt.xcode XCFontAndColorCurrentTheme -string "Base16 Tomorrow (Dark).xccolortheme"
+
