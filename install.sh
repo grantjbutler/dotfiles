@@ -10,6 +10,7 @@ xcode-select --install
 ./setup/dnsmasq
 ./setup/php
 ./setup/ruby
+./setup/node
 ./setup/mysql
 ./setup/vscode
 ./setup/xcode
