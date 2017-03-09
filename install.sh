@@ -11,7 +11,6 @@ xcode-select --install
 ./setup/php
 ./setup/ruby
 ./setup/node
-./setup/mysql
 ./setup/vscode
 ./setup/xcode
 ./setup/macos
