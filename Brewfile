@@ -43,6 +43,7 @@ cask 'the-unarchiver'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'visual-studio-code'
+cask 'vlc'
 cask 'zeplin'
 
 # App Store
