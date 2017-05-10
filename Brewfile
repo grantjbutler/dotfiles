@@ -9,6 +9,7 @@ brew 'diff-so-fancy'
 brew 'dnsmasq'
 brew 'fish'
 brew 'git-lfs'
+brew 'imagemagick'
 brew 'mas'
 brew 'node'
 brew 'php71', args: ['with-debug']
