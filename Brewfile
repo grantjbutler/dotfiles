@@ -2,6 +2,7 @@ tap 'homebrew/dupes'
 tap 'homebrew/versions'
 tap 'homebrew/homebrew-php'
 tap 'caskroom/cask'
+tap 'vapor/homebrew-tap'
 
 # Tools
 brew 'carthage'
@@ -14,6 +15,7 @@ brew 'mas'
 brew 'node'
 brew 'php71', args: ['with-debug']
 brew 'rbenv'
+brew 'vapor'
 brew 'wget'
 
 # Apps
