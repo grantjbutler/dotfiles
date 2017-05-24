@@ -15,6 +15,7 @@ brew 'mas'
 brew 'node'
 brew 'php71', args: ['with-debug']
 brew 'rbenv'
+brew 'sourcery'
 brew 'vapor'
 brew 'wget'
 
