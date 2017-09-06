@@ -55,6 +55,7 @@ cask 'zeplin'
 # App Store
 mas 'Deliveries', id: 924726344
 mas 'Fantastical 2', id: 975937182
+mas 'GIF Brewery', id: 1081413713
 mas 'Keynote', id: 409183694
 mas 'Motion', id: 434290957
 mas 'Numbers', id: 409203825
