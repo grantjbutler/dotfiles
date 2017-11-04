@@ -2,4 +2,7 @@
 
 code --install-extension Orta.vscode-ios-common-files
 code --install-extension octref.vetur
+code --install-extension felixfbecker.php-intellisense
+code --install-extension MehediDracula.php-namespace-resolver
+code --install-extension emallin.phpunit
 
