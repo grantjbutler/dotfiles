@@ -1,4 +1,4 @@
-#!/bin/bash -eu
+#!/bin/bash
 
 # Finder
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
@@ -45,8 +45,9 @@ defaults write com.apple.dt.Xcode DVTTextUsesSyntaxAwareIndenting -bool false
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 5
 
-for app in "cfprefsd" "Dock" "Finder" "Photos" "Safai" "SystemUIServer" "Xcode"
-    killall "${app}" &> /dev/null
-end
+programs=("cfprefsd" "Dock" "Finder" "Photos" "Safari" "SystemUIServer" "Xcode")
+for app in ${programs[@]}; do
+    killall "${app}" > /dev/null 2>&1
+done
 
 echo "Done. Note that some of these changes require a logout/restart to take effect."
