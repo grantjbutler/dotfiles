@@ -2,3 +2,5 @@
 
 rbenv init
 
+sudo gem install bundler
+
