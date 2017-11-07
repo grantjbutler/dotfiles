@@ -45,6 +45,10 @@ defaults write com.apple.dt.Xcode DVTTextUsesSyntaxAwareIndenting -bool false
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 5
 
+# SystemUIServer
+mkdir ~/Pictures/Screenshots/
+defaults write com.apple.screencapture location ~/Pictures/Screenshots/
+
 programs=("cfprefsd" "Dock" "Finder" "Photos" "Safari" "SystemUIServer" "Xcode")
 for app in ${programs[@]}; do
     killall "${app}" > /dev/null 2>&1
