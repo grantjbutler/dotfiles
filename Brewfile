@@ -51,6 +51,7 @@ cask 'vagrant'
 cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'wwdc'
 cask 'zeplin'
 
 # App Store
