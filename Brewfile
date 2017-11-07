@@ -61,5 +61,6 @@ mas 'Keynote', id: 409183694
 mas 'Motion', id: 434290957
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
+mas 'Pixelmator', id: 407963104
 mas 'Tweetbot', id: 557168941
 mas 'xScope', id: 889428659
