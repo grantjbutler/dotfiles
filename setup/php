@@ -10,7 +10,7 @@ pushd ~
 
 git clone https://github.com/laravel/homestead.git .homestead
 cd .homestead
-git checkout v5.0.1
+git checkout v6.5.0
 
 bash init.sh
 
