@@ -56,6 +56,7 @@ cask 'wwdc'
 cask 'zeplin'
 
 # App Store
+mas 'Calcbot', id: 931657367
 mas 'Deliveries', id: 924726344
 mas 'Fantastical 2', id: 975937182
 mas 'GIF Brewery', id: 1081413713
