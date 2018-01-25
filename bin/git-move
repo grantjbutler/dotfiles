@@ -1,0 +1,28 @@
+#!/bin/sh
+
+source "$(git --exec-path)/git-sh-setup"
+
+USAGE="COMMITS BRANCH"
+function _move() {
+	if [[ $# == 2 ]]
+	then
+		if [[ -n $(git rev-parse --verify --quiet HEAD~$1) ]]
+		then
+			if [[ -z $(git rev-parse --verify --quiet $2) ]]
+			then
+				git branch $2
+				git reset --hard HEAD~$1
+				git checkout $2
+			else
+				die "$2 already exists"
+			fi
+		else
+			die "HEAD~$1 does not exist"
+		fi
+	else
+		usage
+	fi
+}
+
+_move $1 $2
+
