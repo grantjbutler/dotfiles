@@ -10,9 +10,11 @@ function _move() {
 		then
 			if [[ -z $(git rev-parse --verify --quiet $2) ]]
 			then
+				git stash -u
 				git branch $2
 				git reset --hard HEAD~$1
 				git checkout $2
+				git stash pop
 			else
 				die "$2 already exists"
 			fi
