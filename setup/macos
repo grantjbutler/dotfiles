@@ -52,6 +52,10 @@ defaults write com.apple.screensaver askForPasswordDelay -int 5
 mkdir ~/Pictures/Screenshots/
 defaults write com.apple.screencapture location ~/Pictures/Screenshots/
 
+# Tweetbot
+# https://twitter.com/dancounsell/status/667011332894535682
+defaults write com.tapbots.TweetbotMac OpenURLsDirectly YES
+
 programs=("cfprefsd" "Dock" "Finder" "Photos" "Safari" "SystemUIServer" "Xcode")
 for app in ${programs[@]}; do
     killall "${app}" > /dev/null 2>&1
