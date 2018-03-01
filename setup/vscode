@@ -7,3 +7,5 @@ code --install-extension ryannaddy.laravel-artisan
 code --install-extension MehediDracula.php-namespace-resolver
 code --install-extension calebporzio.better-phpunit
 
+json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["editor.minimap.enabled"]=false'
+
