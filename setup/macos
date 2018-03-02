@@ -53,6 +53,8 @@ mkdir ~/Pictures/Screenshots/
 defaults write com.apple.screencapture location ~/Pictures/Screenshots/
 
 # Spotlight
+# From @klaaspieter dotfiles:
+# https://github.com/klaaspieter/dotfiles/blob/63573594cb192fcc6244f536cbfe185bb8c2865d/setup/defaults#L206-L226
 disable_spotlight_hotkey () {
   local PlistBuddy=/usr/libexec/PlistBuddy
   local plist=~/Library/Preferences/com.apple.symbolichotkeys.plist
