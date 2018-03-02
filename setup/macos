@@ -62,7 +62,7 @@ defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
 # https://twitter.com/dancounsell/status/667011332894535682
 defaults write com.tapbots.TweetbotMac OpenURLsDirectly YES
 
-programs=("cfprefsd" "Dock" "Finder" "Photos" "Safari" "SystemUIServer" "Xcode")
+programs=("cfprefsd" "Dock" "Finder" "Photos" "Safari" "SystemUIServer" "Xcode" "iTerm2")
 for app in ${programs[@]}; do
     killall "${app}" > /dev/null 2>&1
 done
