@@ -75,6 +75,11 @@ disable_spotlight_hotkey () {
 # Also sets it to Cmd+Ctrl+Space in case macOS decides to enable it again
 disable_spotlight_hotkey
 
+# Alfred
+
+# Get preferences from Dropbox
+defaults write com.runningwithcrayons.Alfred-Preferences-3 syncfolder -string "~/Dropbox/Sync"
+
 # iTerm2
 
 # Read configuration from custom directory
