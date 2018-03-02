@@ -80,7 +80,7 @@ disable_spotlight_hotkey
 # Alfred
 
 # Get preferences from Dropbox
-defaults write com.runningwithcrayons.Alfred-Preferences-3 syncfolder -string "~/Dropbox/Sync"
+defaults write com.runningwithcrayons.Alfred-Preferences-3 syncfolder -string "~/Dropbox/Alfred"
 
 # iTerm2
 
