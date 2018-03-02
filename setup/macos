@@ -52,6 +52,29 @@ defaults write com.apple.screensaver askForPasswordDelay -int 5
 mkdir ~/Pictures/Screenshots/
 defaults write com.apple.screencapture location ~/Pictures/Screenshots/
 
+# Spotlight
+disable_spotlight_hotkey () {
+  local PlistBuddy=/usr/libexec/PlistBuddy
+  local plist=~/Library/Preferences/com.apple.symbolichotkeys.plist
+  local entry=AppleSymbolicHotKeys:64
+
+  if "$PlistBuddy" "$plist" -c "Print $entry:enabled" > /dev/null 2>&1; then
+    "$PlistBuddy" "$plist" -c "Set $entry:enabled false"
+  else
+    "$PlistBuddy" "$plist" -c "Add $entry:enabled bool false" \
+      -c "Add $entry:value dict" \
+      -c "Add $entry:value:parameters array" \
+      -c "Add $entry:value:parameters: integer 32" \
+      -c "Add $entry:value:parameters: integer 49" \
+      -c "Add $entry:value:parameters: integer 1310720" \
+      -c "Add $entry:value:type string standard"
+  fi
+}
+
+# Disable Spotlight keyboard shortcut
+# Also sets it to Cmd+Ctrl+Space in case macOS decides to enable it again
+disable_spotlight_hotkey
+
 # iTerm2
 
 # Read configuration from custom directory
