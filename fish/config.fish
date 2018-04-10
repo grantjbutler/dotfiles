@@ -1,4 +1,4 @@
-set -x PATH ~/.dotfiles/bin (brew --prefix homebrew/php/php71)/bin $HOME/.composer/vendor/bin $PATH
+set -x PATH ~/.dotfiles/bin (brew --prefix php@7.1)/bin $HOME/.composer/vendor/bin $PATH
 set -x EDITOR vim
 set -x fish_function_path ~/.dotfiles/fish/functions $fish_function_path
 
