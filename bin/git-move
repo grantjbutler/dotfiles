@@ -10,11 +10,22 @@ function _move() {
 		then
 			if [[ -z $(git rev-parse --verify --quiet $2) ]]
 			then
-				git stash -u
+				git diff-index --quiet HEAD --
+				NEEDS_STASHING=$?
+				
+				if [[ -z $NEEDS_STASHING ]]
+				then
+					git stash -u
+				fi
+
 				git branch $2
 				git reset --hard HEAD~$1
 				git checkout $2
-				git stash pop
+
+				if [[ -z $NEEDS_STASHING ]]
+				then
+					git stash pop
+				fi
 			else
 				die "$2 already exists"
 			fi
