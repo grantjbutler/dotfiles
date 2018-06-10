@@ -90,7 +90,9 @@ defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
 
 # Tweetbot
 # https://twitter.com/dancounsell/status/667011332894535682
-defaults write com.tapbots.TweetbotMac OpenURLsDirectly YES
+defaults write com.tapbots.Tweetbot3Mac OpenURLsDirectly -bool true
+defaults write com.tapbots.Tweetbot3Mac SidebarType -string compact
+defaults write com.tapbots.Tweetbot3Mac persistentActionButtons -bool false
 
 programs=("cfprefsd" "Dock" "Finder" "Photos" "Safari" "SystemUIServer" "Xcode" "iTerm2")
 for app in ${programs[@]}; do
