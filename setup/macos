@@ -94,6 +94,9 @@ defaults write com.tapbots.Tweetbot3Mac OpenURLsDirectly -bool true
 defaults write com.tapbots.Tweetbot3Mac SidebarType -string compact
 defaults write com.tapbots.Tweetbot3Mac persistentActionButtons -bool false
 
+# iPhone Simulator
+defaults write com.apple.iphonesimulator ScreenShotSaveLocation -s "~/Pictures/Screenshots"
+
 programs=("cfprefsd" "Dock" "Finder" "Photos" "Safari" "SystemUIServer" "Xcode" "iTerm2")
 for app in ${programs[@]}; do
     killall "${app}" > /dev/null 2>&1
