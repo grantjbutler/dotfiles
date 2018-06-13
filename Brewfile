@@ -58,6 +58,7 @@ mas 'Calcbot', id: 931657367
 mas 'Deckset', id: 847496013
 mas 'Deliveries', id: 924726344
 mas 'Fantastical 2', id: 975937182
+mas 'Final Cut Pro', id: 424389933
 mas 'GIF Brewery', id: 1081413713
 mas 'Keynote', id: 409183694
 mas 'Motion', id: 434290957
