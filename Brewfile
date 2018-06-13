@@ -1,5 +1,3 @@
-tap 'homebrew/dupes'
-tap 'homebrew/versions'
 tap 'caskroom/cask'
 tap 'vapor/homebrew-tap'
 
