@@ -7,7 +7,7 @@ brew 'diff-so-fancy'
 brew 'dnsmasq'
 brew 'fish'
 brew 'git-lfs'
-brew 'hub', args: ['devel']
+brew 'hub'
 brew 'imagemagick'
 brew 'mas'
 brew 'node'
