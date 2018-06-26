@@ -10,8 +10,16 @@ gem install --conservative xcode-install
 rm -f domain_name-0.5.99999999.gem
 popd
 
+read -i -p "Apple ID:" XCODE_INSTALL_USER
+echo ""
+read -i -p "Apple ID Password:" XCODE_INSTALL_PASSWORD
+echo ""
+
 xcversion install 9.4.1
 xcversion install-cli-tools
+
+unset XCODE_INSTALL_USER
+unset XCODE_INSTALL_PASSWORD
 
 ./setup/brew
 ./setup/fish
