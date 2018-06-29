@@ -7,6 +7,9 @@ code --install-extension ryannaddy.laravel-artisan
 code --install-extension MehediDracula.php-namespace-resolver
 code --install-extension calebporzio.better-phpunit
 
+mkdir -p "$HOME/Library/Application Support/Code/User/"
+touch "$HOME/Library/Application Support/Code/User/settings.json"
+
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["editor.minimap.enabled"]=false'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["editor.wordWrap"]="on"'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["terminal.extenal.osxExec"]="iTerm.app"'
