@@ -38,7 +38,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 # Xcode
 defaults write com.apple.dt.Xcode DVTTextShowLineNumbers -bool true
 defaults write com.apple.dt.Xcode DVTTextShowPageGuide -bool true
-defaults write com.apple.dt.Xcode DVTTextPageGuideLocation -int 80
+defaults write com.apple.dt.Xcode DVTTextPageGuideLocation -int 120
 
 defaults write com.apple.dt.Xcode DVTTextUsesSyntaxAwareIndenting -bool false
 
