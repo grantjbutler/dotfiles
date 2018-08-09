@@ -95,6 +95,7 @@ defaults write com.tapbots.Tweetbot3Mac SidebarType -string compact
 defaults write com.tapbots.Tweetbot3Mac persistentActionButtons -bool false
 defaults write com.tapbots.Tweetbot3Mac displayNameType -int 1
 defaults write com.tapbots.Tweetbot3Mac badgesEnabled -int 1
+defaults write com.tapbots.Tweetbot3Mac openURLInBackground -int 1
 
 # iPhone Simulator
 defaults write com.apple.iphonesimulator ScreenShotSaveLocation -s "~/Pictures/Screenshots"
