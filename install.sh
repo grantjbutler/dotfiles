@@ -1,7 +1,12 @@
 #!/bin/bash -eu
 
-echo "Installing Xcode Command Line Tools..."
+echo "Installing Xcode..."
+
 xcode-select --install
+
+gem install xcode-install
+
+xcversion install 9.4.1
 
 ./setup/brew
 ./setup/fish

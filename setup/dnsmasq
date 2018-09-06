@@ -4,6 +4,9 @@
 touch /usr/local/etc/dnsmasq.conf
 echo -e "\nconf-file=${HOME}/.dotfiles/dnsmasq.conf" >> /usr/local/etc/dnsmasq.conf
 
+sudo mkdir -p /etc/resolver/
 sudo touch /etc/resolver/app
 echo -e "nameserver 127.0.0.1\n" | sudo tee -a /etc/resolver/test
+
+sudo brew services start dnsmasq
 

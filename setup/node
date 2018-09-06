@@ -2,4 +2,5 @@
 
 npm install gulp-cli -g
 npm install json -g
+npm install -g @vue/cli
 
