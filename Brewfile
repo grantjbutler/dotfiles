@@ -4,6 +4,7 @@ tap 'caskroom/cask'
 tap 'vapor/homebrew-tap'
 
 # Tools
+brew 'bat'
 brew 'carthage'
 brew 'diff-so-fancy'
 brew 'dnsmasq'
