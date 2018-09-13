@@ -2,7 +2,7 @@
 
 # cp /usr/local/opt/dnsmasq/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf
 touch /usr/local/etc/dnsmasq.conf
-echo -e "\nconf-file=${HOME}/.dotfiles/dnsmasq.conf" >> /usr/local/etc/dnsmasq.conf
+echo -e "\nconf-file=${HOME}/.dotfiles/config/dnsmasq.conf" >> /usr/local/etc/dnsmasq.conf
 
 sudo mkdir -p /etc/resolver/
 sudo touch /etc/resolver/app
