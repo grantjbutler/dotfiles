@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -eu
+
 source "$(git --exec-path)/git-sh-setup"
 
 USAGE="COMMITS BRANCH"
