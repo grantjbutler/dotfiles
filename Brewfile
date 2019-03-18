@@ -17,6 +17,7 @@ brew 'rbenv'
 brew 'sourcery'
 brew 'vapor'
 brew 'wget'
+brew 'yarn'
 
 # Apps
 cask '1password'

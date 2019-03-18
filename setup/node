@@ -1,6 +1,7 @@
 #!/bin/bash -eu
 
-npm install gulp-cli -g
-npm install json -g
-npm install -g @vue/cli
+yarn global add gulp-cli
+yarn global add json
+yarn global add @vue/cli
+yarn global add @vue/cli-init
 
