@@ -6,7 +6,7 @@ xcode-select --install
 
 gem install xcode-install
 
-xcversion install 10.1
+xcversion install 10.2.1
 
 ./setup/brew
 ./setup/fish
