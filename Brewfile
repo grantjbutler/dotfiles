@@ -12,7 +12,7 @@ brew 'hub'
 brew 'imagemagick'
 brew 'mas'
 brew 'node'
-brew 'php72', args: ['with-debug']
+brew 'php', args: ['with-debug']
 brew 'rbenv'
 brew 'sourcery'
 brew 'vapor'
