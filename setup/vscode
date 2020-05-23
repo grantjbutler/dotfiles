@@ -7,6 +7,8 @@ code --install-extension ryannaddy.laravel-artisan
 code --install-extension MehediDracula.php-namespace-resolver
 code --install-extension calebporzio.better-phpunit
 code --install-extension lehni.vscode-titlebar-less-macos
+code --install-extension cjhowe7.laravel-blade
+code --install-extension mikestead.dotenv
 
 mkdir -p "$HOME/Library/Application Support/Code/User/"
 touch "$HOME/Library/Application Support/Code/User/settings.json"
