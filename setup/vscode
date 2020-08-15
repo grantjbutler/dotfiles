@@ -22,3 +22,9 @@ json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this[
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["eslint.validate"]=["javascript","javascriptreact","vue"]'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["window.titleBarStyle"]="custom"'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["window.nativeTabs"]=false'
+
+echo "[]" > "$HOME/Library/Application Support/Code/User/keybindings.json"
+
+json -I -f "$HOME/Library/Application Support/Code/User/keybindings.json" -e 'this.push({ key: "shift+cmd+o", command: "-workbench.action.gotoSymbol" })'
+json -I -f "$HOME/Library/Application Support/Code/User/keybindings.json" -e 'this.push({ key: "shift+cmd+o", command: "workbench.action.quickOpen" })'
+json -I -f "$HOME/Library/Application Support/Code/User/keybindings.json" -e 'this.push({ key: "cmd+p", command: "-workbench.action.quickOpen" })'
