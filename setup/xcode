@@ -6,4 +6,3 @@ ln -s ~/.dotfiles/xcode/base16-tomorrow.dark.presentation.dvtcolortheme ~/Librar
 ln -s xcode/base16-tomorrow.dark.streaming.presentation.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Base16\ Tomorrow\ Streaming\ Presentation\ \(Dark\).dvtcolortheme
 
 defaults write com.apple.dt.xcode XCFontAndColorCurrentTheme -string "Base16 Tomorrow (Dark).xccolortheme"
-

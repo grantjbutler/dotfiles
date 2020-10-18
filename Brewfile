@@ -56,7 +56,6 @@ cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'wwdc'
-cask 'zeplin'
 
 # App Store
 mas '1Blocker for Safari', id: 1107421413

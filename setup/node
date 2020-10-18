@@ -4,4 +4,3 @@ yarn global add gulp-cli
 yarn global add json
 yarn global add @vue/cli
 yarn global add @vue/cli-init
-

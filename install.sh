@@ -19,4 +19,3 @@ xcversion install 12.0.1
 ./setup/vscode
 ./setup/xcode
 ./setup/macos
-

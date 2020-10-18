@@ -13,4 +13,3 @@ bash init.sh
 popd
 
 composer global require "laravel/installer"
-

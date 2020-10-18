@@ -7,4 +7,3 @@ alias git=hub
 alias cat=bat
 
 status --is-interactive; and source (rbenv init -|psub)
-
