@@ -1,24 +1,16 @@
 #!/bin/bash -eu
 
-curl -fsSL -o /tmp/composer-install https://getcomposer.org/installer
-php -f /tmp/composer-install
-mv composer.phar /usr/local/bin/composer
-
 vagrant box add laravel/homestead --provider virtualbox
 
 pushd ~
 
 git clone https://github.com/laravel/homestead.git .homestead
 cd .homestead
-git checkout v7.14.2
+git checkout release
 
 bash init.sh
 
 popd
-
-wget https://phar.phpunit.de/phpunit.phar
-chmod +x phpunit.phar
-sudo mv phpunit.phar /usr/local/bin/phpunit
 
 composer global require "laravel/installer"
 

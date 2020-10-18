@@ -19,6 +19,9 @@ brew 'vapor'
 brew 'wget'
 brew 'yarn'
 
+brew 'composer'
+brew 'phpunit'
+
 # Apps
 cask '1password'
 cask 'alfred'
