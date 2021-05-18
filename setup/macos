@@ -52,7 +52,7 @@ defaults write com.apple.screensaver askForPasswordDelay -int 5
 
 # SystemUIServer
 mkdir ~/Pictures/Screenshots/
-defaults write com.apple.screencapture location -string ~/Pictures/Screenshots/
+defaults write com.apple.screencapture location -string "~/Pictures/Screenshots/"
 
 # Spotlight
 # From @klaaspieter dotfiles:
