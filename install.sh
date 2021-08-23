@@ -6,7 +6,7 @@ xcode-select --install
 
 gem install xcode-install
 
-xcversion install 12.4
+xcversion install 12.5.1
 
 ./setup/brew
 ./setup/fish
