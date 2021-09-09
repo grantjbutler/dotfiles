@@ -10,3 +10,4 @@ alias cat=bat
 
 source /usr/local/opt/asdf/libexec/asdf.fish
 
+fish_add_path (yarn global bin)
