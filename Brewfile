@@ -2,18 +2,20 @@ tap 'caskroom/cask'
 tap 'vapor/homebrew-tap'
 
 # Tools
+brew 'asdf'
 brew 'bat'
 brew 'carthage'
 brew 'diff-so-fancy'
 brew 'dnsmasq'
 brew 'fish'
+brew 'gawk'
 brew 'gh'
 brew 'git-lfs'
+brew 'gpg'
 brew 'imagemagick'
 brew 'mas'
 brew 'node'
 brew 'php', args: ['with-debug']
-brew 'rbenv'
 brew 'sourcery'
 brew 'vapor'
 brew 'wget'
@@ -49,7 +51,6 @@ cask 'sketch'
 cask 'slack'
 cask 'spotify'
 cask 'steam'
-cask 'the-hit-list'
 cask 'the-unarchiver'
 cask 'vagrant'
 cask 'virtualbox'
@@ -58,7 +59,7 @@ cask 'vlc'
 cask 'wwdc'
 
 # App Store
-mas '1Blocker for Safari', id: 1107421413
+mas '1Blocker: Ad Blocker & Privacy', id: 1365531024
 mas 'Boop', id: 1518425043
 mas 'Calcbot', id: 931657367
 mas 'Deckset', id: 847496013
