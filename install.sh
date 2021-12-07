@@ -17,7 +17,6 @@ fi
 ./setup/fish
 ./setup/git
 ./setup/vim
-./setup/dnsmasq
 ./setup/php
 ./setup/node
 ./setup/vscode
