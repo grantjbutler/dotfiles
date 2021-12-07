@@ -1,5 +1,5 @@
 if test -e /opt/homebrew/bin/brew
-  eval /opt/homebrew/bin/brew shellenv
+  eval (/opt/homebrew/bin/brew shellenv)
 end
 
 fish_add_path ~/.dotfiles/bin
