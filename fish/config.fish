@@ -2,7 +2,7 @@ if test -e /opt/homebrew/bin/brew
   eval (/opt/homebrew/bin/brew shellenv)
 end
 
-fish_add_path ~/.dotfiles/bin
+fish_add_path "$HOME/.dotfiles/bin"
 fish_add_path /usr/local/bin
 fish_add_path /usr/local/sbin
 
@@ -19,3 +19,4 @@ else if test -e /usr/local/opt/asdf/libexec/asdf.fish
 end
 
 fish_add_path (yarn global bin)
+fish_add_path "$HOME/.composer/vendor/bin"
