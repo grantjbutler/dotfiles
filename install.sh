@@ -8,6 +8,11 @@ gem install xcode-install
 
 xcversion install 13.1
 
+if [[ $(uname -p) == "arm" ]]; then
+  echo "Installing Rosetta 2..."
+  softwareupdate --install-rosetta
+fi
+
 ./setup/brew
 ./setup/fish
 ./setup/git
