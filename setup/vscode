@@ -10,6 +10,7 @@ code --install-extension lehni.vscode-titlebar-less-macos
 code --install-extension cjhowe7.laravel-blade
 code --install-extension mikestead.dotenv
 code --install-extension heybourn.headwind
+code --install-extension editorconfig.editorconfig
 
 mkdir -p "$HOME/Library/Application Support/Code/User/"
 touch "$HOME/Library/Application Support/Code/User/settings.json"
