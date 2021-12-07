@@ -32,7 +32,7 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 
-deafults write com.apple.Safari NeverUseBackgroundColorInToolbar -bool true
+defaults write com.apple.Safari NeverUseBackgroundColorInToolbar -bool true
 defaults write com.apple.Safari ShowStandaloneTabBar -bool true
 
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
@@ -55,7 +55,7 @@ defaults write com.apple.screensaver askForPasswordDelay -int 5
 
 # SystemUIServer
 mkdir ~/Pictures/Screenshots/
-defaults write com.apple.screencapture location -string "~/Pictures/Screenshots/"
+defaults write com.apple.screencapture location -string "file:///Users/"$(whoami)"/Pictures/Screenshots/"
 
 # Spotlight
 # From @klaaspieter dotfiles:
