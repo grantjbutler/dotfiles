@@ -10,7 +10,7 @@ xcversion install 13.1
 
 if [[ $(uname -p) == "arm" ]]; then
   echo "Installing Rosetta 2..."
-  softwareupdate --install-rosetta
+  softwareupdate --install-rosetta --agree-to-license
 fi
 
 ./setup/brew
