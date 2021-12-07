@@ -15,7 +15,7 @@ brew 'gpg'
 brew 'imagemagick'
 brew 'mas'
 brew 'node'
-brew 'php', args: ['with-debug']
+brew 'php'
 brew 'sourcery'
 brew 'vapor'
 brew 'wget'
