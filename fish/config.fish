@@ -1,3 +1,5 @@
+eval /opt/homebrew/bin/brew shellenv
+
 fish_add_path ~/.dotfiles/bin
 fish_add_path /usr/local/bin
 fish_add_path /usr/local/sbin
