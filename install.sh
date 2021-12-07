@@ -14,7 +14,6 @@ xcversion install 13.1
 ./setup/vim
 ./setup/dnsmasq
 ./setup/php
-./setup/ruby
 ./setup/node
 ./setup/vscode
 ./setup/xcode
