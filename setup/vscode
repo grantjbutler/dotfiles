@@ -6,24 +6,28 @@ code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension ryannaddy.laravel-artisan
 code --install-extension MehediDracula.php-namespace-resolver
 code --install-extension calebporzio.better-phpunit
-code --install-extension lehni.vscode-titlebar-less-macos
+code --install-extension iocave.customize-ui
 code --install-extension cjhowe7.laravel-blade
 code --install-extension mikestead.dotenv
 code --install-extension heybourn.headwind
 code --install-extension editorconfig.editorconfig
+code --install-extension dbaeumer.vscode-eslint
 
 mkdir -p "$HOME/Library/Application Support/Code/User/"
-touch "$HOME/Library/Application Support/Code/User/settings.json"
+echo "{}" > "$HOME/Library/Application Support/Code/User/settings.json"
 
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["editor.minimap.enabled"]=false'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["editor.wordWrap"]="on"'
-json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["terminal.extenal.osxExec"]="iTerm.app"'
+json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["terminal.external.osxExec"]="iTerm.app"'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["window.zoomLevel"]=0'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["php.suggest.basic"]=false'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["eslint.autoFixOnSave"]=true'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["eslint.validate"]=["javascript","javascriptreact","vue"]'
-json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["window.titleBarStyle"]="custom"'
+json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["window.titleBarStyle"]="native"'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["window.nativeTabs"]=false'
+json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["customizeUI.titleBar"]="inline"'
+json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["intelephense.environment.phpVersion"]="8.1.0"'
+json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["php.validate.executablePath"]="/opt/homebrew/bin/php"'
 
 echo "[]" > "$HOME/Library/Application Support/Code/User/keybindings.json"
 
