@@ -6,7 +6,6 @@ code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension ryannaddy.laravel-artisan
 code --install-extension MehediDracula.php-namespace-resolver
 code --install-extension calebporzio.better-phpunit
-code --install-extension iocave.customize-ui
 code --install-extension cjhowe7.laravel-blade
 code --install-extension mikestead.dotenv
 code --install-extension heybourn.headwind
@@ -23,9 +22,6 @@ json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this[
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["php.suggest.basic"]=false'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["eslint.autoFixOnSave"]=true'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["eslint.validate"]=["javascript","javascriptreact","vue"]'
-json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["window.titleBarStyle"]="native"'
-json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["window.nativeTabs"]=false'
-json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["customizeUI.titleBar"]="inline"'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["intelephense.environment.phpVersion"]="8.1.0"'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["php.validate.executablePath"]="/opt/homebrew/bin/php"'
 
