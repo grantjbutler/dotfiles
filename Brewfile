@@ -20,6 +20,7 @@ brew 'sourcery'
 brew 'vapor'
 brew 'wget'
 brew 'yarn'
+brew 'xcodes'
 
 brew 'composer'
 brew 'phpunit'
