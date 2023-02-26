@@ -12,8 +12,8 @@ set -x COMPOSER_MEMORY_LIMIT -1
 
 alias cat="bat --style=numbers"
 
-if test -e /opt/homebrew/opt/asdf/asdf.fish
-  source /opt/homebrew/opt/asdf/asdf.fish
+if test -e /opt/homebrew/opt/asdf/libexec/asdf.fish
+  source /opt/homebrew/opt/asdf/libexec/asdf.fish
 else if test -e /usr/local/opt/asdf/libexec/asdf.fish
   source /usr/local/opt/asdf/libexec/asdf.fish
 end
