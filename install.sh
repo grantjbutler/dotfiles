@@ -1,13 +1,5 @@
 #!/bin/bash -eu
 
-echo "Installing Xcode..."
-
-xcode-select --install
-
-gem install xcode-install
-
-xcversion install 13.1
-
 if [[ $(uname -p) == "arm" ]]; then
   echo "Installing Rosetta 2..."
   softwareupdate --install-rosetta --agree-to-license

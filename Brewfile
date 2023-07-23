@@ -2,6 +2,7 @@ tap 'homebrew/cask'
 tap 'vapor/homebrew-tap'
 
 # Tools
+brew 'aria2'
 brew 'asdf'
 brew 'bat'
 brew 'carthage'
@@ -19,6 +20,7 @@ brew 'php'
 brew 'sourcery'
 brew 'vapor'
 brew 'wget'
+brew 'xcodesorg/made/xcodes'
 brew 'yarn'
 
 brew 'composer'
