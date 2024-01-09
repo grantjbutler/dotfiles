@@ -62,11 +62,11 @@ mas 'Deliveries', id: 924726344
 mas 'Fantastical 2', id: 975937182
 mas 'Final Cut Pro', id: 424389933
 mas 'GIF Brewery', id: 1081413713
+mas 'Ivory', id: 6444602274
 mas 'JSON Peep for Safari', id: 1458969831
 mas 'Keynote', id: 409183694
 mas 'Motion', id: 434290957
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Pixelmator Pro', id: 1289583905
-mas 'Tweetbot', id: 1384080005
 mas 'xScope', id: 889428659
