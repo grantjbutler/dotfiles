@@ -1,6 +1,6 @@
 #!/bin/bash -eu
 
-xcodes install --experimental-unxip 15.3
+xcodes install --experimental-unxip 15.4
 
 mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
 ln -s ~/.dotfiles/xcode/base16-tomorrow.dark.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Base16\ Tomorrow\ \(Dark\).dvtcolortheme
