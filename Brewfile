@@ -57,7 +57,6 @@ cask 'wwdc'
 mas '1Blocker: Ad Blocker & Privacy', id: 1365531024
 mas 'Boop', id: 1518425043
 mas 'Calcbot', id: 931657367
-mas 'Deckset', id: 847496013
 mas 'Deliveries', id: 924726344
 mas 'Fantastical 2', id: 975937182
 mas 'Final Cut Pro', id: 424389933
