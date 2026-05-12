@@ -24,6 +24,7 @@ json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this[
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["eslint.validate"]=["javascript","javascriptreact","vue"]'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["intelephense.environment.phpVersion"]="8.1.0"'
 json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["php.validate.executablePath"]="/opt/homebrew/bin/php"'
+json -I -f "$HOME/Library/Application Support/Code/User/settings.json" -e 'this["workbench.editor.tabCloseButton"]="left"'
 
 echo "[]" > "$HOME/Library/Application Support/Code/User/keybindings.json"
 
